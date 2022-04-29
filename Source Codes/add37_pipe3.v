@@ -1,8 +1,5 @@
-															   // VLSI DESIGN MINI PROJECT			
-															// 37-BIT 3 STAGE PIPELINED ADDER
-														// By: VIBHU RASTOGI [RA1911004010264]
-														// 		AYUSH GUPTA	[RA1911004010265]
-														// 	 AAYUSH SINHA  [RA1911004010274]
+// 37-BIT 3 STAGE PIPELINED ADDER
+
 module add37_pipe3
 #(parameter  WIDTH	= 37,  		//  Total  bit  width 
 	WIDTH0	=  9,						// Bit width of LSBs 
@@ -12,8 +9,7 @@ module add37_pipe3
 	WIDTH012 = 27,						// Sum WIDTH0+WIDTH1+WIDTH2
 	WIDTH3	=	10)					// Bit width of MSBs 
 	(input	[WIDTH-1:0]  x,  y,	// Inputs
-	output [WIDTH-1:0] sum,			//  Result
-//	output LSBs_Carry, Middle_Carry, MSBs_Carry, // Test pins 
+	output [WIDTH-1:0] sum,			//  Result 
 	input	clk);							// Clock
 
 reg [WIDTH0-1:0] l0, l1, r0,  v0,  s0;   		// LSBs of inputs 
@@ -83,13 +79,3 @@ end
 assign sum = {s3, s2, s1, s0}; // Connect sum to output 
 
 endmodule
-
-
-
-
-
-
-
-//assign LSBs_Carry	= q0[WIDTH1];	// Provide test signals 
-//assign Middle_Carry = v1[WIDTH1];
-//assign MSBs_Carry	= r2[WIDTH2];
