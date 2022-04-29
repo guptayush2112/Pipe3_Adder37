@@ -15,9 +15,7 @@ This repository is aimed around the design of a 37-bit pipelined adder that feat
 
 # Introduction
 
-A basic binary N-bit adder/subtractor consists of N full-adders (FA). A full-adder implements the following Boolean equations:
-
-Pipelining is a technique that shortens the circuit delay by placing a register in a combinational logic path to break the critical path. Pipelining has the advantage to get high throughput of a circuit because the register-to-register delay is the delay path that sets the clock rate.
+A basic binary N-bit adder/subtractor consists of N full-adders (FA). Pipelining is a technique that shortens the circuit delay by placing a register in a combinational logic path to break the critical path. Pipelining has the advantage to get high throughput of a circuit because the register-to-register delay is the delay path that sets the clock rate.
 Another application domain of pipelining is that it is extensively used in DSP solutions due to the intrinsic dataflow regularity of DSP algorithms. Programmable digital signal processor MACs [6,16,17] typically carry at least four pipelined stages. The processor:
 1)	Decodes the command
 2)	Loads the operands in registers
