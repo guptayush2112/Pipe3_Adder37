@@ -68,7 +68,7 @@ To know more, kindly refer to: <a href='https://www.xilinx.com/products/design-t
 
 For RTL level Verilog code, kindly refer to: <a href='https://github.com/guptayush2112/Pipe3_Adder37/blob/main/Source%20Codes/add37_pipe3.v'>Verilog Code</a></br>
 
-For Testbench code, kindly refer to: <a href='https://github.com/guptayush2112/Pipe3_Adder37/blob/main/Source%20Codes/Testbench/add37_pipe3_tb.vg'>Testbench</a></br>
+For Testbench code, kindly refer to: <a href='https://github.com/guptayush2112/Pipe3_Adder37/blob/main/Source%20Codes/Testbench/add37_pipe3_tb.v'>Testbench</a></br>
 
 ## Testbench Simulation:
 
