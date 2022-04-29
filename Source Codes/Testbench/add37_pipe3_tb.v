@@ -1,8 +1,4 @@
-															   // VLSI DESIGN MINI PROJECT			
-												// TESTBENCH FOR 37-BIT 3 STAGE PIPELINED ADDER
-														// By: VIBHU RASTOGI [RA1911004010264]
-														// 		AYUSH GUPTA	[RA1911004010265]
-														// 	 AAYUSH SINHA  [RA1911004010274]
+// TESTBENCH FOR 37-BIT 3 STAGE PIPELINED ADDER
 `timescale 1ns / 1ps
 module add37_pipe3_tb;
 
